@@ -5,7 +5,7 @@ export const Page = ({ children }: PropsWithChildren<{}>) => {
     <div
       className="
                 w-[210mm]
-                h-[297mm]
+                h-[295mm]
                 border-2
                 border-black
                 bg-white
@@ -16,7 +16,6 @@ export const Page = ({ children }: PropsWithChildren<{}>) => {
                 py-10
                 print:px-10
                 print:py-5
-                print:border-none
                 print:shadow-none
                 print:ml-0
                 print:mt-0
@@ -42,7 +41,6 @@ export const PageWithoutPadding = ({ children }: PropsWithChildren<{}>) => {
                 py-10
                 print:px-0
                 print:py-0
-                print:border-none
                 print:shadow-none
                 print:ml-0
                 print:mt-0

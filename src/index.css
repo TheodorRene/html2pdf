@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @page { */
-/*     /1* No margin, hide the header and footer. *1/ */
-/*     margin: 0; */
-/*     size: A4 portrait; */
-/* } */
+@page {
+  /* No margin, hide the header and footer. */
+  margin: 0;
+  size: A4 portrait;
+}
+* {
+  -webkit-print-color-adjust: exact; /* Chrome/Safari/Edge/Opera */
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'HelveticaNeue', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "HelveticaNeue", "Helvetica", "Arial", "sans-serif";
 }
 
 a {
