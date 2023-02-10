@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-export const Page = ({ children }: PropsWithChildren<{}>) => {
+export const PageWithPadding = ({ children }: PropsWithChildren<{}>) => {
   return (
     <div
       className="
@@ -25,7 +25,7 @@ export const Page = ({ children }: PropsWithChildren<{}>) => {
     </div>
   );
 };
-export const PageWithoutPadding = ({ children }: PropsWithChildren<{}>) => {
+export const Page = ({ children }: PropsWithChildren<{}>) => {
   return (
     <div
       className="
@@ -37,11 +37,10 @@ export const PageWithoutPadding = ({ children }: PropsWithChildren<{}>) => {
                 shadow-2xl
                 ml-2
                 mt-2
-                px-20
-                py-10
                 print:px-0
                 print:py-0
                 print:shadow-none
+                print:border-0
                 print:ml-0
                 print:mt-0
                 "
@@ -62,9 +61,7 @@ export const BottomlessPage = ({ children }: PropsWithChildren<{}>) => {
                 shadow-2xl 
                 ml-2
                 mt-2
-                p-20
-                print:p-10
-                print:border-none
+                print:border-0
                 print:shadow-none
                 print:ml-0
                 print:mt-0

@@ -7,9 +7,11 @@
   margin: 0;
   size: A4 portrait;
 }
+
 * {
   -webkit-print-color-adjust: exact; /* Chrome/Safari/Edge/Opera */
 }
+
 html,
 body {
   padding: 0;
