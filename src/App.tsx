@@ -1,5 +1,3 @@
-import { useState } from "react";
-import "./App.css";
 import { BottomlessPage, Page } from "./Page";
 
 function App() {
@@ -28,7 +26,7 @@ function App() {
             It will expand at will, but be careful! You might need to break
             things manually
           </p>
-          <div className="">
+          <div>
           {more_nums.map((_) => (
             <div className="break-inside-avoid border-black border mt-10 pt-10">
               <h2 className="font-bold">Dont break this section, por favor</h2>
